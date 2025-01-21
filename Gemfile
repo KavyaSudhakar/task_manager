@@ -35,6 +35,7 @@ gem "jbuilder"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem "bcrypt", "~> 3.1.7"
 gem 'jwt', '~> 2.10', '>= 2.10.1'
+gem 'byebug'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
@@ -66,3 +67,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "active_model_serializers", "~> 0.10.15"
