@@ -1,24 +1,9 @@
-# README
+# README.
+Task Manager - This is API only application provides user to regsiter and login securely . User can create , update , read, delete task 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+steps to set up project:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* bundle install
+* rails db:migrate - to generate schema
+* rails s - to run server
+  
