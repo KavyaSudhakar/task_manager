@@ -36,6 +36,7 @@ gem "jbuilder"
 gem "bcrypt", "~> 3.1.7"
 gem 'jwt', '~> 2.10', '>= 2.10.1'
 gem 'byebug'
+gem 'will_paginate', '~> 4.0', '>= 4.0.1'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
